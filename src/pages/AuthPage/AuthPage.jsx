@@ -1,5 +1,4 @@
 import React from 'react'
-import { useState } from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { Login } from '../../components/Login/Login'
 import { Registration } from '../../components/Registration/Registration'
@@ -12,8 +11,6 @@ import './AuthPage.scss'
 export const AuthPage = () => {
    const { isLogin } = useContext(AuthContext)
    return (
-      // <div className='container'>
-      //    <div className='auth-page'>
       <BrowserRouter>
          {!isLogin ? (
             <Routes>
@@ -28,7 +25,5 @@ export const AuthPage = () => {
             </Routes>
          )}
       </BrowserRouter>
-      //    </div>
-      // </div>
    )
 }
