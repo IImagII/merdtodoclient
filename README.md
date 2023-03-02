@@ -17,5 +17,5 @@
 - Серверная часть deploy сделан на heroku
 - Клиенская часть deploy сделан на netlify
 
-Демо-версия проекта - https://roaring-elf-6900e4.netlify.app/login
+
 
